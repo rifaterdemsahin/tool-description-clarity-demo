@@ -1,0 +1,29 @@
+{
+  "name": "tool-description-clarity-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npx remotion studio",
+    "build": "npx remotion render",
+    "render:all": "node ../render-mp4s.mjs",
+    "render:scene1": "npx remotion render Scene1Title remotion/exports/scene1-title.mp4",
+    "render:scene2": "npx remotion render Scene2Naive remotion/exports/scene2-naive.mp4",
+    "render:scene3": "npx remotion render Scene3Resilient remotion/exports/scene3-resilient.mp4",
+    "render:scene4": "npx remotion render Scene4Metrics remotion/exports/scene4-metrics.mp4",
+    "render:scene5": "npx remotion render Scene5Outro remotion/exports/scene5-outro.mp4",
+    "render:full": "npx remotion render FullVideo remotion/exports/full-video.mp4"
+  },
+  "dependencies": {
+    "remotion": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@types/react": "^18.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

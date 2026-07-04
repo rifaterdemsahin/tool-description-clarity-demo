@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rifaterdemsahin.github.io/tool-description-clarity-demo/sitemap.xml

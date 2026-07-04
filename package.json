@@ -1,0 +1,21 @@
+{
+  "name": "tool-description-clarity-demo",
+  "version": "1.0.0",
+  "description": "Architectural demonstration: Why clear tool descriptions prevent LLM tool-selection failures",
+  "type": "module",
+  "main": "demo.js",
+  "scripts": {
+    "start": "node demo.js",
+    "naive": "node demo.js --naive",
+    "resilient": "node demo.js --resilient",
+    "benchmark": "node demo.js --benchmark",
+    "render:all": "cd remotion && npm run render:all",
+    "verify": "node demo.js --verify"
+  },
+  "keywords": ["architecture", "llm", "tool-selection", "semantic-descriptions", "claude-exam"],
+  "author": "Auto-Detect (Executing AI Assistant Model) — DeepSeek V4 Flash",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
